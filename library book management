@@ -1,0 +1,34 @@
+book=[]
+def addbook(bookname,autname,bookid):
+      booklist = {"name": bookname, "author": autname, "id": bookid}
+      book.append(booklist)
+      print("added booklist",booklist)
+      print("curent books",book)
+     
+bookname=input("enter a bookname\n")
+autname=input("enter a author name\n")
+bookid=input("enter a bookid")
+addbook(bookname,autname,bookid)
+
+#search book
+ist=["python","java","php",]
+for book in list:
+      book_name=input("enter book name:")
+      if (book==book_name):
+            print("book availble")
+      else:
+           print("book not availble")
+
+#user
+
+user=[]
+def add_user(username,userid,contact):
+      user_list = {"name": username, "userid":userid, "contact": contact}
+      user.append(user_list)
+      print("added user",user_list)
+      print("curent user",user)
+     
+username=input("enter a name\n")
+userid=input("enter a id\n")
+contact=input("enter a contact")
+add_user(username,userid,contact)
