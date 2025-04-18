@@ -1,0 +1,16 @@
+#exception handling
+book=[]
+def addbook(bookname,autname,bookid):
+      booklist = {"name": bookname, "author": autname, "id": bookid}
+      book.append(booklist)
+      print("added booklist",booklist)
+      print("curent books",book)
+try:
+     bookname=input("enter a bookname\n")
+     autname=input("enter a author name\n")
+     bookid=(int(input("enter a bookid")))
+except ValueError:
+      print("value error")
+finally:
+      print("excute")
+      addbook(bookname,autname,bookid)
