@@ -1,0 +1,23 @@
+#library mangement using dict
+
+new_books={}
+#size=int(input("enter the size:"))
+#for i in range(size):
+key=input("enter the book name:")
+value=input("enter the book details(author,year,ISBN):")
+new_books={key:value}
+print(new_books)
+book_list={}
+for key,value in new_books.items ():
+  j['key']=value
+  print(book_list)
+
+#for users
+new_user={}
+size=int(input("enter the size:"))
+for i in range (size):
+    key=input("enter user name:")
+    value=input("user details(ID,CONTACT,ADDRESS):")
+    new_user={key:value}
+    print(new_user)
+
